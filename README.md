@@ -2,10 +2,10 @@
 
 # Prerequisites software
 
-- vagrant
+- Vagrant
 - Oracle Virtual Box
 
-# clone repository
+# Clone repository
 
 git clone https://github.com/dparmar1/composerdevbox.git
 
