@@ -4,6 +4,7 @@
 
 - Vagrant
 - Oracle Virtual Box
+- Git Bash
 
 # Clone repository
 
