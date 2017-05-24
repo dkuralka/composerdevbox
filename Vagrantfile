@@ -46,21 +46,20 @@ Vagrant.configure(2) do |config|
   config.vm.provision "bootstrap-root", type: "shell", path: "bootstrap-root.sh"
   config.vm.provision "bootstrap-user", type: "shell", path: "bootstrap-user.sh", privileged: false
 
-# port-forwarding for the hyperledger docker containers
-#  config.vm.network "forwarded_port", guest: 7501, host: 7501
-#  config.vm.network "forwarded_port", guest: 7502, host: 7502
-#  config.vm.network "forwarded_port", guest: 7503, host: 7503
-#  config.vm.network "forwarded_port", guest: 7504, host: 7504
-#  config.vm.network "forwarded_port", guest: 7505, host: 7505
-#  config.vm.network "forwarded_port", guest: 7506, host: 7506
-#  config.vm.network "forwarded_port", guest: 7507, host: 7507
-#  config.vm.network "forwarded_port", guest: 7508, host: 7508
-
-  # port-forwarding for composer ui/playground
-#  config.vm.network "forwarded_port", guest: 8080, host: 8080
-#  config.vm.network "forwarded_port", guest: 3000, host: 3000
-#  config.vm.network "forwarded_port", guest: 4200, host: 4200
-#  config.vm.network "forwarded_port", guest: 7070, host: 7070
+  # port-forwarding for the hyperledger docker containers
+  config.vm.network :forwarded_port, guest: 7501, host: 7501, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 7502, host: 7502, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 7503, host: 7503, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 7504, host: 7504, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 7505, host: 7505, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 7506, host: 7506, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 7507, host: 7507, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 7508, host: 7508, host_ip: "localhost", auto_correct: true
+  
+  config.vm.network :forwarded_port, guest: 8080, host: 8080, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 3000, host: 3000, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 4200, host: 4200, host_ip: "localhost", auto_correct: true
+  config.vm.network :forwarded_port, guest: 7070, host: 7070, host_ip: "localhost", auto_correct: true
 
   # disable the default synced folder always tries to set up
   config.vm.synced_folder ".", "/vagrant", disabled: true
