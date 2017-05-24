@@ -26,3 +26,6 @@ Follow all steps mentioned under "Procedure"
 
 https://hyperledger.github.io/composer/installing/quickstart.html
 
+# Install composer-playground locally
+
+https://hyperledger.github.io/composer/tutorials/getting-started-playground.html
