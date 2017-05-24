@@ -10,7 +10,7 @@
 
 git clone https://github.com/dparmar1/composerdevbox.git
 
-# Start virtual machine 
+# Go to 'composerdevbox' folder to start virtual machine 
 
 vagrant up
 

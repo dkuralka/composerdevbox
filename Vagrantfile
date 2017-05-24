@@ -64,6 +64,9 @@ Vagrant.configure(2) do |config|
 
   # disable the default synced folder always tries to set up
   config.vm.synced_folder ".", "/vagrant", disabled: true
+  
+  # set private ip address
+  config.vm.network "private_network", ip: "192.168.40.2"
 
   config.vm.provider :virtualbox do |v|
 
