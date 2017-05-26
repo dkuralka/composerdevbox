@@ -18,7 +18,7 @@ vagrant up
 
 vagrant ssh
 
-[You can use putty by providing ubuntu/ubuntu as username/password]
+[You can use putty, Username is 'ubuntu' and Password is located @C:\Users\<Your Username>\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-xenial64\20170523.1.0\virtualbox\Vagrantfile]
 
 # Install composer-cli
 
