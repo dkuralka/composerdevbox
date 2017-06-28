@@ -20,12 +20,9 @@ vagrant ssh
 
 [You can use putty, Username is 'ubuntu' and Password is located @C:\Users\<Your Username>\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-xenial64\20170523.1.0\virtualbox\Vagrantfile]
 
-# Install composer-cli
+# Installing Hyperledger Composer development tools
 
-Follow all steps mentioned under "Procedure" 
+Follow all steps mentioned in "Step 1",  "Step 2" is Optional
 
-https://hyperledger.github.io/composer/installing/quickstart.html
+https://hyperledger.github.io/composer/installing/development-tools.html
 
-# Install composer-playground locally
-
-https://hyperledger.github.io/composer/tutorials/getting-started-playground.html
