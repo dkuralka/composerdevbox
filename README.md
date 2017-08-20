@@ -23,7 +23,16 @@ vagrant ssh
 
 # Installing Hyperledger Composer development tools
 
-Follow all steps mentioned in "Step 1",  "Step 2" is Optional
+Follow all steps mentioned in "Step 2"
 
 https://hyperledger.github.io/composer/installing/development-tools.html
+
+# Help
+
+- RocketChat: https://chat.hyperledger.org/channel/composer
+- StackOverflow: https://stackoverflow.com/questions/tagged/hyperledger-composer
+
+# Thank You - DEEPAK PARMAR (dparmar1@in.ibm.com / deepakvparmar@gmail.com)
+
+
 

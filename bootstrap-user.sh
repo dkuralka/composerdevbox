@@ -31,6 +31,17 @@ npm install -g @angular/cli
 npm install -g eslint
 npm install -g eslint-plugin-smells
 npm install -g mocha
+
+#
+# Install Composer Tools
+#
+
+npm install -g composer-cli
+npm install -g generator-hyperledger-composer
+npm install -g composer-rest-server
+npm install -g yo
+npm install -g composer-playground
+
 #
 # install previous nodejs version for conversation along with the same global modules
 # plus change the level of npm to what was being used.
