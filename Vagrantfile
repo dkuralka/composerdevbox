@@ -63,6 +63,7 @@ Vagrant.configure(2) do |config|
 
   # disable the default synced folder always tries to set up
   config.vm.synced_folder ".", "/vagrant", disabled: true
+  config.vm.synced_folder "./learning", "/home/ubuntu/learning"
   
   # set private ip address
   config.vm.network "private_network", ip: "192.168.40.2"

@@ -1,0 +1,4 @@
+
+**Deploy
+
+composer network deploy -p hlfv1 -a basic-sample-network.bna -i PeerAdmin -s peeradmin
