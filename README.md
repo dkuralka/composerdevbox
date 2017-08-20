@@ -2,17 +2,18 @@
 
 # Prerequisites software
 
-- Vagrant
-- Oracle Virtual Box
-- Git Bash
+- Vagrant (1.9.3) : https://releases.hashicorp.com/vagrant/1.9.3/vagrant_1.9.3.msi
+- Oracle Virtual Box (5.1.18) : http://download.virtualbox.org/virtualbox/5.1.18/VirtualBox-5.1.18-114002-Win.exe
+- Git Bash : https://git-scm.com/download/win
 
 # Clone repository
 
-git clone https://github.com/dparmar1/composerdevbox.git
+- git clone https://github.com/dparmar1/composerdevbox.git
 
 # Go to 'composerdevbox' folder to start virtual machine 
 
-vagrant up
+- cd composerdevbox
+- vagrant up
 
 # Login into virtual machine
 
