@@ -32,7 +32,9 @@ https://hyperledger.github.io/composer/installing/development-tools.html
 - RocketChat: https://chat.hyperledger.org/channel/composer
 - StackOverflow: https://stackoverflow.com/questions/tagged/hyperledger-composer
 
-# Thank You - DEEPAK PARMAR (dparmar1@in.ibm.com / deepakvparmar@gmail.com)
+# Thank You 
+
+- DEEPAK PARMAR (dparmar1@in.ibm.com / deepakvparmar@gmail.com)
 
 
 
